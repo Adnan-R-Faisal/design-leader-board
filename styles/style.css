@@ -158,7 +158,7 @@ course card style end
 /* ----------
 Media queries
 ------------- */
-@media(min-width:1000px){
+@media (min-width:1000px){
     .container-inner{
         width:870px;
     }
@@ -175,7 +175,7 @@ Media queries
     .courses{
         display:grid;
         grid-template-columns: repeat(3, 1fr);
-        gap:30px;
+        grid-gap:30px;
     }
     
 .thumbnail img{
